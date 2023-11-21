@@ -1,0 +1,40 @@
+@import url(background.css  );
+@import url(header.css);  
+@import url(main.css);  
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text: #edf1f7;
+    --red: #c51212; 
+    --blue: #0041c2;
+    --green: #14b02d;
+    --yellow: #ffc12b;
+    --orange: #FF4500;
+    --medblue: #0000FF;    
+}
+
+body, button, a {
+    color: var(--text);
+    font: 400 1rem "Mukta" , sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+}
